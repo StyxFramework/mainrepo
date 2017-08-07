@@ -1,4 +1,4 @@
-﻿body
+body
 {
 
 }
@@ -6,6 +6,12 @@
 {
     position: absolute;
     left: 100px;
+    top: 150px;
+}
+#signupcontainer
+{
+    position: absolute;
+    left: 700px;
     top: 150px;
 }
 #reset{

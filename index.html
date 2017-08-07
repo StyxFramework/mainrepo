@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
     <title> Styx Framework AUT</title>
     <link href="AUT/styles/index.css" rel="stylesheet" />
@@ -8,8 +8,23 @@
         <form name="frmsignin" id="frmsignin">
             <h2>Sign in</h2>
             <label>Username: </label><input type="text" /> <br />
-            <label>Password:</label><input type="password" /><br />
+            <label>Password: </label><input type="password" /><br />
             <input type="button" name="signin" id="signin" class="btnsignin" value="Sign in" />
+            <input type="reset" name="reset" id="reset" class="btnreset" value="Reset" />
+        </form>
+    </div>
+        <div id="signupcontainer">
+        <form name="frmsignup" id="frmsignup">
+            <h2>Sign Up</h2>
+            <label>First Name: </label><input type="text" /> <br />
+            <label>Last Name: </label><input type="text" /><br />
+            <label>DOB: </label><input type="date" /> <br />
+            <label>Gender: </label><input type="radio" name="gender" value="male"/>Male <input type="radio" name="gender" value="female"/>Female<br />
+            <label>Email: </label><input type="email" /> <br />
+            <label>Phone: </label><input type="tel" /> <br />
+            <label>Username: </label><input type="text" /> <br />
+            <label>New Password: </label><input type="password" /> <br />
+            <input type="button" name="signup" id="signup" class="btnsignup" value="Sign Up" />
             <input type="reset" name="reset" id="reset" class="btnreset" value="Reset" />
         </form>
     </div>
